@@ -23,6 +23,9 @@
 
 
 
+
+
+
 // TASK 2 ||||||||||||||||||||||||||||||||||||||||||||||||||||
 // n butun soni berilgan (n > 0). Bo'lib butun va qoldia qismlarini aniqlash orqali,
 // berilgan son raqamlarini teskari tartibda chiqaruvchi programma tuzilsin.
@@ -41,6 +44,13 @@
 
 // let fresult = reverseNumber(a);
 // console.log(fresult);
+
+
+
+
+
+
+
 
 
 // TASK 3 ||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -62,6 +72,13 @@
 // }
 
 // console.log(addFindTheDigits(num));
+
+
+
+
+
+
+
 
 
 // TASK 4 ||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -111,6 +128,9 @@
 
 
 
+
+
+
 // TASK 5 ||||||||||||||||||||||||||||||||||||||||||||||||||||
 // While21. n butun soni berilgan (n > 0). Bo'lib butun va goldig qismlarini aniqlash orqali
 // berilgan son raqamlarining orasida toq raqamlar bor - yo'qligini aniqlovchi programma
@@ -131,6 +151,12 @@
 //     return result;
 // }
 // console.log(findTheOdd(num));
+
+
+
+
+
+
 
 
 
@@ -164,7 +190,6 @@
 
 
 
-
 // TASK 6
 // if else inside the loop while
 
@@ -188,6 +213,7 @@
 // }
 
 // console.log(findThePrime(num));
+
 
 
 
@@ -222,8 +248,19 @@
 
 
 
-
-
-
-
+// TASK 7 ||||||||||||||||||||||||||||||||||||||||||||||||||||
 // sonnni faktarialini topish rekursiya orqali va amalyotda ishlangan masalalarni functionda yozish
+
+// let num = 5;
+
+// const findTheFactorial = (num) => {
+//     let factorial = 1;
+//     let i = 1;
+//     while(i <= num){
+//         factorial *= i;
+//         i++;
+//     }
+//     return `Factorial of ${num} is ${factorial}`
+// }
+
+// console.log(findTheFactorial(num));
