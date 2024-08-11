@@ -154,7 +154,7 @@
 //             result = `${num} soni tub emas`;
 //         }
 //     } else {
-//         result = `Siz 1 yoki undan kichik sonini kiritdingiz. Bunday sonlar tub yoki tub emaslikka ajralmaydi!`;
+//         result = `Siz 1 yoki undan kichik sonni kiritdingiz. Bunday sonlar tub yoki tub emaslikka ajralmaydi!`;
 //     }
 //     return result;
 // }
@@ -163,27 +163,56 @@
 
 
 
-let num = +prompt('Son kiriting');
 
-const findThePrime = (num) => {
-    let result = `${num} soni tub son`;
-    let i = 2;
-    if (num > 1) {
-        while (i < num) {
-            if (num % i == 0) {
-                result = `${num} soni tub emas`;
-                break;
-            }
-            i++;
-        }
 
-    } else {
-        result = `Siz 1 yoki undan kichik sonini kiritdingiz. Bunday sonlar tub yoki tub emaslikka ajralmaydi!`;
-    }
-    return result;
-}
+// TASK 6
+// if else inside the loop while
 
-console.log(findThePrime(num));
+// let num = Number(prompt('Son kiriting'));
+
+// const findThePrime = (num) => {
+//     let result = `${num} soni tub`;
+//     let i = 2;
+//     if (num > 1) {
+//         while (i < num) {
+//             if (num % i == 0) {
+//                 result = `${num} soni tub emas`;
+//                 return result;
+//             }
+//             i++;
+//         }
+//     } else {
+//         result = `Siz 1 yoki undan kichik sonni kiritdingiz. Bunday sonlar tub yoki tub emaslikka ajralmaydi!`;
+//     }
+//     return result;
+// }
+
+// console.log(findThePrime(num));
+
+
+
+// TASK 6
+// less redundant
+
+// let num = Number(prompt('Son kiriting'));
+
+// const findThePrime = (num) => {
+//     if (num <= 1) {
+//         return `Siz 1 yoki undan kichik sonni kiritdingiz. Bunday sonlar tub yoki tub emaslikka ajralmaydi!`;
+//     } else {
+//         let i = 2;
+//         while (i < num) {
+//             if (num % i === 0) {
+//                 return `${num} soni tub emas`;
+//             }
+//             i++;
+//         }
+//     }
+//     return `${num} soni tub son`;
+// }
+
+// console.log(findThePrime(num));
+
 
 
 
